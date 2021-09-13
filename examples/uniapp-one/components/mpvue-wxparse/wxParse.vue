@@ -29,7 +29,7 @@ export default {
       },
     },
     image: {
-      type: String,
+      type: Object,
       default() {
         return {
           mode: 'aspectFit',
